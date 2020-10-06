@@ -32,9 +32,9 @@ nav ul li a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
   padding-left: 93px;
   padding-top: 32px;
-  color: #2196f3;
 }
 
 .portfolio {
@@ -46,7 +46,7 @@ nav ul li a {
   letter-spacing: 0.02em;
   padding-left: 53px;
   padding-top: 32px;
-  color: #212121;
+  color: #2196f3;
 }
 
 .contacts {

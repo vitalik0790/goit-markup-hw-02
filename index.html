@@ -5,93 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div>
       <!--Верхня строка-->
-      <nav>
+      <nav class="topbar">
         <ul>
-          <li><a href="./index.html">WebStudio</a></li>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#Контакты">Контакты</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="webstudio" href="./index.html"
+              ><span class="web"><b>Web</b></span
+              ><span class="studio"><b>Studio</b></span></a
+            >
+          </li>
+          <li>
+            <a class="studi" href="./index.html"><b>Студия</b></a>
+          </li>
+          <li>
+            <a class="portfolio" href="./portfolio.html"><b>Портфолио</b></a>
+          </li>
+          <li>
+            <a class="contacts" href="#Контакты"><b>Контакты</b></a>
+          </li>
+          <li>
+            <a class="mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </nav>
 
       <!--Шапка сайта-->
-      <div>
+
+      <header>
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button>Заказать услугу</button>
-      </div>
+      </header>
 
-      <!--Таблица-->
-      <div>
-        <table>
-          <tr>
-            <th>Внимание к деталям</th>
-            <th>Пунктуальность</th>
-            <th>Планирование</th>
-            <th>Современные технологии</th>
-          </tr>
-          <tr>
-            <td>
+      <main>
+        <!--Таблица-->
+
+        <div>
+          <ul>
+            <li>Внимание к деталям</li>
+            <li>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul>
+            <li>Пунктуальность</li>
+            <li>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul>
+            <li>Планирование</li>
+            <li>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
-            </td>
-            <td>
+            </li>
+          </ul>
+          <ul>
+            <li>Современные технологии</li>
+            <li>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
-            </td>
-          </tr>
-        </table>
-      </div>
+            </li>
+          </ul>
+        </div>
 
-      <!--Чем мы занимаемся-->
-      <div>
-        <h2>Чем мы занимаемся</h2>
-        <img src="./img/img.png" alt="Photo" />
-        <img src="./img/img1.png" alt="Photo" />
-        <img src="./img/img2.png" alt="Photo" />
-      </div>
-      <div>
-        <h3>Наша команда</h3>
+        <!--Чем мы занимаемся-->
+
         <div>
-          <img src="./img/img3.jpg" alt="Photo" />
-          <p>Игорь Демьяненко</p>
-          <p>Product Designer</p>
+          <h2>Чем мы занимаемся</h2>
+          <img src="./img/img.png" alt="Photo" />
+          <img src="./img/img1.png" alt="Photo" />
+          <img src="./img/img2.png" alt="Photo" />
         </div>
         <div>
-          <img src="./img/img4.jpg" alt="Photo" />
-          <p>Ольга Репина</p>
-          <p>Frontend Developer</p>
+          <h3>Наша команда</h3>
+          <div>
+            <img src="./img/img3.jpg" alt="Photo" />
+            <p>Игорь Демьяненко</p>
+            <p>Product Designer</p>
+          </div>
+          <div>
+            <img src="./img/img4.jpg" alt="Photo" />
+            <p>Ольга Репина</p>
+            <p>Frontend Developer</p>
+          </div>
+          <div>
+            <img src="./img/img5.jpg" alt="Photo" />
+            <p>Николай Тарасов</p>
+            <p>Marketing</p>
+          </div>
+          <div>
+            <img src="./img/img6.jpg" alt="Photo" />
+            <p>Михаил Ермаков</p>
+            <p>UI Designer</p>
+          </div>
         </div>
-        <div>
-          <img src="./img/img5.jpg" alt="Photo" />
-          <p>Николай Тарасов</p>
-          <p>Marketing</p>
-        </div>
-        <div>
-          <img src="./img/img6.jpg" alt="Photo" />
-          <p>Михаил Ермаков</p>
-          <p>UI Designer</p>
-        </div>
-      </div>
-      <div>
+      </main>
+
+      <!--Підвал-->
+      <footer>
         <p>WebStudio</p>
         <p>г. Киев, пр-т Леси Украинки, 26</p>
         <p><a href="mailto:info@example.com">info@example.com</a></p>
         <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
