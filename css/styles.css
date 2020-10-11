@@ -1,0 +1,100 @@
+/* Logo */
+
+.webstudio {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.studio {
+  color: #000000;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Навігація */
+
+.nav-menu .link {
+  color: #212121;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+  color: #2196f3;
+}
+
+.auth-item {
+  color: #212121;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.auth-item:hover,
+.auth-item:focus {
+  color: #2196f3;
+}
+
+/* main */
+
+.main-section {
+  background-color: #2f303a;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section-title {
+  color: #212121;
+}
+
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}

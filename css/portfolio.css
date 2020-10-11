@@ -1,0 +1,62 @@
+/* Logo */
+
+.webstudio {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.studio {
+  color: #000000;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Навігація */
+
+.nav-menu .link {
+  color: #212121;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+  color: #2196f3;
+}
+
+.auth-item {
+  color: #212121;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.auth-item:hover,
+.auth-item:focus {
+  color: #2196f3;
+}
+
+/* Main */
+.section-title {
+  color: #212121;
+}
