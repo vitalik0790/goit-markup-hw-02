@@ -1,3 +1,6 @@
+ul {
+  list-style: none;
+}
 /* Logo */
 
 .webstudio {
@@ -58,5 +61,72 @@
 
 /* Main */
 .section-title {
-  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  color: rgba(33, 33, 33, 1);
+  letter-spacing: 0.06em;
+}
+
+.section-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  color: rgba(117, 117, 117, 1);
+  letter-spacing: 0.03em;
+}
+
+/* Підвал */
+
+.footer {
+  background: rgba(47, 48, 58, 1);
+}
+
+.webstudio-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.street {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.foooter-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }

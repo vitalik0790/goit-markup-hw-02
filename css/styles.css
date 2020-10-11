@@ -99,6 +99,8 @@
   letter-spacing: 0.06em;
 }
 
+/* Секція 1 */
+
 .section-info {
   color: rgba(117, 117, 117, 1);
 }
@@ -159,4 +161,47 @@
 
 .footer {
   background: rgba(47, 48, 58, 1);
+}
+
+.webstudio-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.street {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.foooter-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
