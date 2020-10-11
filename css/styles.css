@@ -25,7 +25,7 @@
 /* Навігація */
 
 .nav-menu .link {
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -37,11 +37,11 @@
 
 .nav-menu .link:hover,
 .nav-menu .link:focus {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);
 }
 
 .auth-item {
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -53,13 +53,13 @@
 
 .auth-item:hover,
 .auth-item:focus {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);
 }
 
 /* main */
 
 .main-section {
-  background-color: #2f303a;
+  background: rgba(47, 48, 58, 1);
 }
 
 .main-title {
@@ -73,11 +73,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
 }
 
 .section-title {
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
 }
 
 .button {
@@ -87,7 +87,7 @@
 }
 
 .button-text {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -97,4 +97,66 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.section-info {
+  color: rgba(117, 117, 117, 1);
+}
+
+.qualities .section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.qualities .section-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+.projects .section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.ourteam .main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.qualities {
+  background: rgba(245, 244, 250, 1);
+}
+
+.projects {
+  background: rgba(245, 244, 250, 1);
+}
+
+.ourteam {
+  background: #f5f4fa;
+}
+
+/* Підвал*/
+
+.footer {
+  background: rgba(47, 48, 58, 1);
 }

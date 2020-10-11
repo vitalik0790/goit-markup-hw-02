@@ -25,7 +25,7 @@
 /* Навігація */
 
 .nav-menu .link {
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -37,11 +37,11 @@
 
 .nav-menu .link:hover,
 .nav-menu .link:focus {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);
 }
 
 .auth-item {
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -53,7 +53,7 @@
 
 .auth-item:hover,
 .auth-item:focus {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);
 }
 
 /* Main */
