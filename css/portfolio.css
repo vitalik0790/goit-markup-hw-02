@@ -59,6 +59,36 @@ ul {
   color: rgba(33, 150, 243, 1);
 }
 
+/* Кнопки */
+.button {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  color: rgba(33, 33, 33, 1);
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  background: rgba(33, 150, 243, 1);
+}
+
+.button:hover,
+.button:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
 /* Main */
 .section-title {
   font-family: Roboto;
