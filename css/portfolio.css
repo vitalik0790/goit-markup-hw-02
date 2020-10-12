@@ -1,5 +1,5 @@
 /* SETTINGS */
-root: {
+:root {
   --main-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
   --text-hover-focus: rgba(33, 150, 243, 1);
@@ -7,23 +7,20 @@ root: {
 }
 
 body. {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background-color: var(--white-text-background);
 }
 
 .list {
   list-style: none;
 }
-/* Logo */
 
-.header {
-  background-color: var(--white-text-background);
-}
-
+/* ЛОГО */
 .webstudio {
-  color: black;
+  color: #000000;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   font-size: 26px;
@@ -34,22 +31,16 @@ body. {
   color: #2196f3;
 }
 
-.list {
-  list-style: none;
-}
-
-/* Навігація */
+/* НАВІГАЦІЯ */
 
 .link {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .link:hover,
@@ -58,15 +49,13 @@ body. {
 }
 
 .auth-item {
-  color: var(--title-text-color);
+  color: var(--main-text-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .auth-item:hover,
@@ -87,7 +76,6 @@ body. {
   top: 174px;
   background: rgba(245, 244, 250, 1);
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -111,7 +99,6 @@ body. {
 
 /* Main */
 .section-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -122,7 +109,6 @@ body. {
 }
 
 .section-info {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -139,7 +125,6 @@ body. {
 }
 
 .webstudio-footer {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -157,7 +142,6 @@ body. {
 }
 
 .street {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -169,7 +153,6 @@ body. {
 }
 
 .foooter-info {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
