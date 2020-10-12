@@ -21,7 +21,7 @@ body. {
 }
 
 .webstudio {
-  color: #000000;
+  color: black;
   text-decoration: none;
   font-family: Raleway;
   font-size: 26px;
@@ -31,7 +31,7 @@ body. {
 }
 
 .studio {
-  color: var(--text-hover-focus);
+  color: #2196f3;
 }
 
 .list {
@@ -40,7 +40,7 @@ body. {
 
 /* Навігація */
 
-.nav-menu .link {
+.link {
   color: var(--title-text-color);
   text-decoration: none;
   font-family: Roboto;
@@ -52,8 +52,8 @@ body. {
   text-align: left;
 }
 
-.nav-menu .link:hover,
-.nav-menu .link:focus {
+.link:hover,
+.link:focus {
   color: var(--text-hover-focus);
 }
 
