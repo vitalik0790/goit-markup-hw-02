@@ -1,28 +1,37 @@
-ul {
+/* SETTINGS */
+root: {
+  --main-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --text-hover-focus: rgba(33, 150, 243, 1);
+  --white-text-background: rgba(255, 255, 255, 1);
+}
+
+body. {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
   list-style: none;
 }
 /* Logo */
 
 .header {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--white-text-background);
 }
 
 .webstudio {
-  color: #2196f3;
+  color: #000000;
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .studio {
-  color: #000000;
-  text-decoration: none;
+  color: var(--text-hover-focus);
 }
 
 .list {
@@ -32,35 +41,37 @@ ul {
 /* Навігація */
 
 .nav-menu .link {
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
   text-decoration: none;
   font-family: Roboto;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .nav-menu .link:hover,
 .nav-menu .link:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--text-hover-focus);
 }
 
 .auth-item {
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
   text-decoration: none;
   font-family: Roboto;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .auth-item:hover,
 .auth-item:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--text-hover-focus);
 }
 
 /* Кнопки */
@@ -82,7 +93,7 @@ ul {
   font-size: 16px;
   line-height: 26px;
   /* identical to box height, or 162% */
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -90,12 +101,12 @@ ul {
 
 .button:hover,
 .button:focus {
-  background: rgba(33, 150, 243, 1);
+  background: var(--text-hover-focus);
 }
 
 .button:hover,
 .button:focus {
-  color: rgba(255, 255, 255, 1);
+  color: var(--white-text-background);
 }
 
 /* Main */
@@ -106,7 +117,7 @@ ul {
   font-size: 18px;
   line-height: 36px;
   /* identical to box height, or 200% */
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
   letter-spacing: 0.06em;
 }
 
@@ -117,7 +128,7 @@ ul {
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 187% */
-  color: rgba(117, 117, 117, 1);
+  color: var(--main-text-color);
   letter-spacing: 0.03em;
 }
 
@@ -154,7 +165,7 @@ ul {
   /* or 171% */
 
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 1);
+  color: var(--white-text-background);
 }
 
 .foooter-info {

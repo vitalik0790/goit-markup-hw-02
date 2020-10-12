@@ -1,49 +1,67 @@
-/* Logo */
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --text-hover-focus: rgba(33, 150, 243, 1);
+  --footer-text: rgba(255, 255, 255, 0.6);
+  --main-footer-background-color: rgba(47, 48, 58, 1);
+  --white-color: #ffffff;
+  --secondary-text-color: rgba(255, 255, 255, 1);
+}
 
-.webstudio {
-  color: #2196f3;
-  text-decoration: none;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+/* var(--primary-text-color)  */
+/* var(--title-text-color) */
+/* var(--text-hover-focus) */
+/* var(--footer-text) */
+/* var(--main-footer-background-color) */
+/* var(--white-color) */
+/* var(--secondary-text-color) */
 
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
-.studio {
+/* LOGO */
+
+.webstudio {
   color: #000000;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.studio {
+  color: #2196f3;
 }
 
 .list {
   list-style: none;
 }
 
-/* Навігація */
+/* NAVIGATION */
 
 .nav-menu .link {
-  color: rgba(33, 33, 33, 1);
-  text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .nav-menu .link:hover,
 .nav-menu .link:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--text-hover-focus);
 }
 
 .auth-item {
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -53,42 +71,32 @@
 
 .auth-item:hover,
 .auth-item:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--text-hover-focus);
 }
 
-/* main */
+/* MAIN */
 
 .main-section {
-  background: rgba(47, 48, 58, 1);
+  background: var(--main-footer-background-color);
 }
 
 .main-title {
-  font-family: Roboto;
+  font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
   line-height: 60px;
-  /* or 136% */
-
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
+
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 1);
+  color: var(--secondary-text-color);
 }
 
 .section-title {
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
 }
 
 .button {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.button-text {
-  color: rgba(255, 255, 255, 1);
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -97,16 +105,19 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  color: var(--white-color);
+  background: var(--text-hover-focus);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
-/* Секція 1 */
+/* СЕКЦІЯ 1 */
 
 .section-info {
-  color: rgba(117, 117, 117, 1);
+  color: var(--primary-text-color);
 }
 
 .qualities .section-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -116,7 +127,6 @@
 }
 
 .qualities .section-info {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -125,8 +135,8 @@
   letter-spacing: 0.03em;
 }
 
+/* СЕКЦІЯ 2 */
 .projects .section-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -135,36 +145,28 @@
   letter-spacing: 0.03em;
 }
 
+/* СЕКЦІЯ 3 */
 .ourteam .main {
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.qualities {
-  background: rgba(245, 244, 250, 1);
-}
-
-.projects {
-  background: rgba(245, 244, 250, 1);
 }
 
 .ourteam {
-  background: #f5f4fa;
+  background: rgba(245, 244, 250, 1);
 }
 
-/* Підвал*/
+/* ПІДВАЛ*/
 
 .footer {
-  background: rgba(47, 48, 58, 1);
+  background: var(--main-footer-background-color);
 }
 
 .webstudio-footer {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -178,11 +180,10 @@
 }
 
 .logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .street {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -190,11 +191,10 @@
   /* or 171% */
 
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 1);
+  color: var(--secondary-text-color);
 }
 
 .foooter-info {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -203,5 +203,5 @@
   text-decoration: none;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text);
 }
